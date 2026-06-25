@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kasoko-travels.vercel.app/sitemap.xml
