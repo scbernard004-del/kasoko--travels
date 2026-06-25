@@ -101,3 +101,12 @@ This version includes extra Google-ready setup:
 - The header has been cleaned across the homepage and all detail pages.
 - The small tagline under the Kasoko Travels logo was removed.
 - Mobile spacing and menu alignment were improved for phones, tablets and desktop.
+
+## Contact and order alert numbers
+The website now lists these Mobile / WhatsApp numbers for customer bookings:
+- 0746 584 214
+- 0789 515 769
+- 0744 355 769
+- 0762 917 519
+
+The homepage booking form includes a “Send order to” selector so a customer can choose which number receives the WhatsApp order. Email/SMS alert endpoint placeholders remain in `index.html` for Formspree, Google Apps Script, Beem, or another secure provider.
