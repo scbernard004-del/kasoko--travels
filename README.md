@@ -104,9 +104,22 @@ This version includes extra Google-ready setup:
 
 ## Contact and order alert numbers
 The website now lists these Mobile / WhatsApp numbers for customer bookings:
-- 0746 584 214
 - 0789 515 769
 - 0744 355 769
 - 0762 917 519
 
 The homepage booking form includes a “Send order to” selector so a customer can choose which number receives the WhatsApp order. Email/SMS alert endpoint placeholders remain in `index.html` for Formspree, Google Apps Script, Beem, or another secure provider.
+
+## Main public numbers
+The website now shows only these main Mobile / WhatsApp numbers:
+- 0789 515 769
+- 0744 355 769
+- 0762 917 519
+
+The public website does not display the alert email. To receive booking alerts by email, connect the booking endpoint in `index.html` to Formspree or Google Apps Script. The endpoint will forward booking details to your email without showing it on the web page.
+
+## Hotel photo cleanup
+- Replaced repeated generic hotel pictures with hotel-specific image URLs gathered from hotel/gallery sources.
+- Homepage hotel cards and hotel detail-page galleries were updated.
+- Some images load directly from official hotel/CDN/gallery sources, so the site needs internet access for those pictures to display.
+- For a live commercial site, replace any remote image URLs with your own licensed/approved photos when available.
